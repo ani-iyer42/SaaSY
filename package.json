@@ -1,33 +1,42 @@
 {
-    "name": "saasy",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "axios": "^0.18.0",
-        "bootstrap": "^4.3.1",
-        "firebase": "^5.9.2",
-        "react": "^16.8.4",
-        "react-chat-window": "^1.1.1",
-        "react-dom": "^16.8.4",
-        "react-router-dom": "^5.0.0",
-        "react-scripts": "2.1.8",
-        "react-tree-graph": "^4.0.0",
-        "reactstrap": "^7.1.0",
-        "tachyons": "^4.11.1"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ]
+  "name": "saasy",https://github.com/ani-iyer42/SaaSY/pull/1/conflict?name=.idea%252Fworkspace.xml&base_oid=4db057c24d9bafab267a5655f79cfdec29cbab8e&head_oid=86567d2e3def97795b76ab9942e4d943b3b8cc0e
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "d3": "^5.9.2",
+    "pre-commit": "^1.2.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8",
+    "react-tree-graph": "^4.0.0",
+    "reactstrap": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "xo && react-scripts test && htmlhint *.html && stylelint *.css",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-recommended"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "htmlhint": "^0.11.0",
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended": "^2.2.0",
+    "xo": "^0.24.0"
+  }
 }

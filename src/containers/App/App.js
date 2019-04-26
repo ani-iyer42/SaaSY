@@ -8,13 +8,11 @@ import './App.css';
 import { Launcher } from "react-chat-window";
 const axios = require('axios');
 // import { timingSafeEqual } from "crypto";
-
 const API_IP = "13.127.145.212";
 class App extends Component {
     constructor() {
         super();
         this.state = {
-
             route: "signIn",
             data: {},
             clicked: false,
